@@ -378,7 +378,7 @@ To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 
-$ git push --set-upstream origin ft/setup 
+$ git push --set-upstream origin  ft/setup 
 Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 4 threads
@@ -392,3 +392,9 @@ remote:
 To https://github.com/Fuad-Jamal/Git-DevOps.git
  * [new branch]      ft/setup -> ft/setup
 branch 'ft/setup' set up to track 'origin/ft/setup'.
+
+User@GisaF23 MINGW64 ~/IdeaProjects/Git-DevOps (ft/setup)
+$ git merge main
+Merge made by the 'ort' strategy.
+ README.md | 394 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 393 insertions(+), 1 deletion(-)
